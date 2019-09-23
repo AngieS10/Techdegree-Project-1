@@ -1,0 +1,57 @@
+body {
+    font-family: "Arial";
+}
+.main-image {
+    border: solid 4px black;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+
+
+h1 {
+    background-color: #0499ff;
+    padding: 5px;
+    text-align: center;
+}
+
+.section-title {
+    text-transform:capitalize;
+}
+
+.header {
+  
